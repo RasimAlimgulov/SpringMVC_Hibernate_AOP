@@ -8,6 +8,7 @@
 
 <%--@elvariable id="dancer" type=""--%>
 <form:form id="forma" action="saveDancer" method="get" modelAttribute="dancer">
+    <form:hidden path="id"/>
     Name <form:input class="fields" path="name"/>
     <br>
     Surname <form:input class="fields" path="surName"/>

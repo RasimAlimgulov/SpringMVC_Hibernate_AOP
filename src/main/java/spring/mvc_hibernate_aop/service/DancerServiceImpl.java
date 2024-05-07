@@ -17,8 +17,21 @@ public class DancerServiceImpl implements DancerService{
         return dancerDAO.getAllDancers();
     }
 
+    @Override
     @Transactional
     public void addDancer(Dancer dancer) {
         dancerDAO.addDancer(dancer);
+    }
+
+    @Override
+    @Transactional
+    public Dancer getDancer(int id) {
+        return dancerDAO.getDancer(id);
+    }
+
+    @Override
+    @Transactional
+    public void deleteDancer(int id) {
+        dancerDAO.deleteDancer(id);
     }
 }
