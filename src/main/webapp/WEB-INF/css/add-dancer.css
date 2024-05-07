@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614631171_25-p-prikolnii-fon-dlya-fotoshopa-28.jpg");
+    background-attachment: fixed;
+}
+
+.fields{
+    margin-bottom: 20px;
+}
+
+#forma {
+    position: fixed;
+    align-content: center;
+}
